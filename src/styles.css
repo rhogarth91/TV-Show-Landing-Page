@@ -1,5 +1,10 @@
-body {
-  background-color: #000;
+:root {
+  --primary-color: #365aff;
+  --main-text-color: #fff;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  --border-radius: 8px;
+  --header-font: "Playfair Display", serif;
+  --main-font: "Spline Sans Mono", monospace;
 }
 
 h1 {
@@ -204,10 +209,24 @@ footer {
 }
 
 main-bg {
-  .project {
-    background: #365aff;
-    color: #fff;
-    opacity: 0.7;
-    margin: 50px 60px 10px 60px;
-  }
+  background: var(--primary-color);
+  color: #fff;
+  opacity: 0.7;
+  margin: 50px 60px 10px 60px;
+}
+
+nav-bg {
+  background: var(--primary-color);
+  font-family: var(--header-font);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 15px;
+}
+
+title-section-bg {
+  background: #e83535;
+  color: #fff;
+  opacity: 0.7;
+  margin: 50px 60px 10px 60px;
 }
