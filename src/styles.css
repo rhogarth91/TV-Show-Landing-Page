@@ -14,8 +14,7 @@
   margin: 50px 60px 10px 60px;
 }
 
-.nav-bg {
-  background: var(--primary-color);
+.nav-style {
   font-family: var(--header-font);
   font-optical-sizing: auto;
   font-weight: 400;
