@@ -1,25 +1,37 @@
 :root {
-  --primary-color: #365aff;
+  --primary-color: #2847d3;
   --main-text-color: #fff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
   --border-radius: 8px;
-  --header-font: "Playfair Display", serif;
-  --main-font: "Spline Sans Mono", monospace;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .main-bg {
   background: var(--primary-color);
-  color: #fff;
+  color: var(--main-text-color);
   opacity: 0.7;
   margin: 50px 60px 10px 60px;
 }
 
 .nav-style {
-  font-family: var(--header-font);
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   margin: 15px;
+}
+
+.rose-hogarth-logo {
+  transition: transform 150ms ease-in-out;
+}
+
+.rose-hogarth-logo:hover {
+  transform: scale(1.4);
+  cursor: pointer;
 }
 
 .rose-hogarth-logo {
