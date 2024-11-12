@@ -18,6 +18,10 @@
   margin: 50px 60px 10px 60px;
 }
 
+.dark-theme {
+  background: #dd0404;
+}
+
 .nav-style {
   font-optical-sizing: auto;
   font-weight: 400;
@@ -25,11 +29,11 @@
   margin: 15px;
 }
 
-.rose-hogarth-logo {
+.Star-Wars-Rebels-Logo {
   transition: transform 150ms ease-in-out;
 }
 
-.rose-hogarth-logo:hover {
+.Star-Wars-Rebels-Logo:hover {
   transform: scale(1.4);
   cursor: pointer;
 }
@@ -41,8 +45,4 @@
 .rose-hogarth-logo:hover {
   transform: scale(1.4);
   cursor: pointer;
-}
-
-.dark-theme {
-  background: #dd0404;
 }
