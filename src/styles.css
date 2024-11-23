@@ -1,5 +1,6 @@
 :root {
   --primary-color: #2847d3;
+  --secondary-color: #bf9c44;
   --main-text-color: #fff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
   --border-radius: 8px;
@@ -36,6 +37,18 @@
 .Star-Wars-Rebels-Logo:hover {
   transform: scale(1.4);
   cursor: pointer;
+}
+
+.back-to-top {
+  color: var(--secondary-color);
+}
+
+.footer {
+  color: var(--secondary-color);
+}
+
+.footer a {
+  color: var(--main-text-color);
 }
 
 .rose-hogarth-logo {
