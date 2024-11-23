@@ -39,19 +39,15 @@
   cursor: pointer;
 }
 
-.img-thumbnail {
-  background-color: var(--secondary-color);
-}
-
 .back-to-top {
   color: var(--secondary-color);
 }
 
-.footer {
+.container-footer p {
   color: var(--secondary-color);
 }
 
-.footer a {
+.container-footer a {
   color: var(--main-text-color);
 }
 
