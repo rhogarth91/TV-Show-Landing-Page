@@ -30,11 +30,11 @@
   margin: 15px;
 }
 
-.Star-Wars-Rebels-Logo {
+.img-transform {
   transition: transform 150ms ease-in-out;
 }
 
-.Star-Wars-Rebels-Logo:hover {
+.img-transform:hover {
   transform: scale(1.4);
   cursor: pointer;
 }
