@@ -39,6 +39,10 @@
   cursor: pointer;
 }
 
+.img-thumbnail {
+  background-color: var(--secondary-color);
+}
+
 .back-to-top {
   color: var(--secondary-color);
 }
