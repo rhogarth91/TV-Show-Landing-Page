@@ -13,10 +13,6 @@ h4 {
   color: var(--main-text-color);
 }
 
-a {
-  color: var(--secondary-color);
-}
-
 .audiowide-regular {
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
